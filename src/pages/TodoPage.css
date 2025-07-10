@@ -1,0 +1,41 @@
+.todo-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+.todo-container h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type='text'] {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: gray;
+}

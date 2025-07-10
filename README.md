@@ -4,13 +4,18 @@ A full-featured React application combining an employee directory with a persona
 
 ## 🚀 Features
 
+![Employee Directory Screenshot](./public/images/screenshot-employee.png)
+![Todo List Screenshot](./public/images/screenshot-todo.png)
+
 ### 🧑‍💼 Employee Directory
+
 - View a list of employees fetched from an external API.
 - Search employees by name.
 - View individual employee details (name, company, contact).
 - Add new employees via a form (Redux-powered).
 
 ### ✅ Todo List
+
 - Add, edit, and delete tasks.
 - Mark tasks as complete with a checkbox.
 - Disable deletion of incomplete tasks.
@@ -31,7 +36,7 @@ A full-featured React application combining an employee directory with a persona
 
 src/
 │
-├── App.jsx # Application routes
+├── App.jsx # Application routes<br>
 ├── main.jsx # App entry with Redux and Router
 ├── components/ # Reusable UI components
 ├── pages/ # Page-level components (Home, Todo, etc.)

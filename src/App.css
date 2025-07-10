@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+}
+
+#list {
+    margin-top: 30px;
+    padding: 5px;
+}
+
+img {
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.emp-name {
+    font-weight: bolder;
+}
+
+.emp-title {
+    color: rgb(174, 174, 174);
+}
+
+.emp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item.page img {
+    height: 150px;
+}
+
+.item.page {
+    display: flex;
+    justify-content: center;
+}
+
+.back {
+    position: absolute;
+    left: 10px;
+    color: rgb(105, 182, 210);
+    cursor: pointer;
+}
+
+h1 span:hover {
+    color: black;
+}
+
+section {
+    margin: 20px;
+}
+
+section div :first-child {
+    font-weight: bolder;
+}
+
+section div :last-child {
+    color: grey;
+}
+
+.add-employee {
+    color: rgb(146, 244, 146);
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 3px solid rgb(202, 202, 202);
+    height: 250px;
+    padding: 20px;
+}
+
+form button {
+    width: 100px;
+}
+
+form input {
+    width: 200px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
