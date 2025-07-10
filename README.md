@@ -34,15 +34,15 @@ A full-featured React application combining an employee directory with a persona
 
 ## 📁 Project Structure
 
-src/
-│
+src/<br>
+│<br>
 ├── App.jsx # Application routes<br>
-├── main.jsx # App entry with Redux and Router
-├── components/ # Reusable UI components
-├── pages/ # Page-level components (Home, Todo, etc.)
-├── store.js # Redux store config
-├── employeeSlice.js # Redux slice for employee state
-└── styles/ # CSS files
+├── main.jsx # App entry with Redux and Router<br>
+├── components/ # Reusable UI components<br>
+├── pages/ # Page-level components (Home, Todo, etc.)<br>
+├── store.js # Redux store config<br>
+├── employeeSlice.js # Redux slice for employee state<br>
+└── styles/ # CSS files<br>
 
 bash
 Copy
